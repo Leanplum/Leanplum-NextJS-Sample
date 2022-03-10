@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import styles from '../styles/Layout.module.css'
+import { Tracking } from '../components/tracking'
 
 export default function Layout({ children }) {
   return (
@@ -25,6 +26,9 @@ export default function Layout({ children }) {
       <footer className={styles.footer}>
         Leanplum + Next.js demo application
       </footer>
+
+      // start user session when visiting a page with this layout
+      <Tracking.Start />
     </div>
   )
 }

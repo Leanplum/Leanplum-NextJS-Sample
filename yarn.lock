@@ -1047,6 +1047,11 @@ language-tags@^1.0.5:
   dependencies:
     language-subtag-registry "~0.3.2"
 
+leanplum-sdk@^1.9.0:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/leanplum-sdk/-/leanplum-sdk-1.9.0.tgz#4bba9368d62c65b3668a8484cd5853af4dd99f65"
+  integrity sha512-yyHpxpy+b2UWbLeKi1/a0ZvVeH2qopYSKkR0/niE/69tPtjZsFoQ1WvqNfrOzlPXydjgVOv4o7z8RuhhmuEPyw==
+
 levn@^0.4.1:
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/levn/-/levn-0.4.1.tgz#ae4562c007473b932a6200d403268dd2fffc6ade"
