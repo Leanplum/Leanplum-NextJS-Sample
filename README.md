@@ -1,5 +1,13 @@
 This is a [Next.js](https://nextjs.org/) project that is instrumented with Leanplum tracking.
 
+### Implementation details
+
+- The layout component `components/layout.js` is used by both `pages/index.js` and `pages/products/index.js`.
+- The layout includes a dynamic component that loads the Leanplum SDK, `components/tracking.js`.
+- When included, the tracking component sets up the SDK options, starts a user session, and tracks a page view event.
+
+---
+
 The project was bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
